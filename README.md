@@ -1,197 +1,71 @@
-<!-- TITLE -->
-<p align="center"> 
-  <img width="100px" src="https://github.com/celo-org/celo-composer/blob/main/images/readme/celo_isotype.svg" align="center" alt="Celo" />
- <h2 align="center">Celo Composer</h2>
- <p align="center">Build, deploy, and iterate quickly on decentralized applications using Celo.</p>
-</p>
-  <p align="center">
-    <a href="https://github.com/celo-org/celo-composer/graphs/stars">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/stars/celo-org/celo-composer?color=FCFF52" />
-    </a>
-    <a href="https://github.com/celo-org/celo-composer/graphs/contributors">
-      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/celo-org/celo-composer?color=E7E3D4" />
-    </a>
-    <a href="https://github.com/celo-org/celo-composer/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/celo-org/celo-composer?color=E7E3D4" />
-    </a>
-    <a href="https://github.com/celo-org/celo-composer/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/celo-org/celo-composer?color=E7E3D4" />
-    </a>
-    <a href="https://opensource.org/license/mit/">
-      <img alt="MIT License" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
-    </a>
-  </p>
-</p>
+<p align="center">
+  <a href="" rel="noopener">
+    <img  src="https://github.com/Ballox-by-Team-Wonder/bunzz-client/blob/master/Base%20for%20ui/dashboard/assets/images/identify/ide_logo-transformed.png" alt="Project logo"></a>
 
-<!-- TABLE OF CONTENTS -->
+<h3 align="center">Identify DAO by Rethink Tech</h3>
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+<div align="center">
 
-<!-- ABOUT THE PROJECT -->
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/Ballox-by-Team-Wonder/bunzz-client/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/Ballox-by-Team-Wonder/bunzz-client/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-## About The Project
+</div>
 
-Celo Composer allows you to quickly build, deploy, and iterate on decentralized applications using Celo. It provides a number of frameworks, examples, and Celo specific functionality to help you get started with your next dApp.
+---
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+## 📝 Table of Contents
 
-## Built With
+- [Problem Statement](#problem)
+- [Brief](#getting_started)
+- [Solution](#usage)
+- [How It Works](#deployment)
+- [Built Using](#built_using)
+- [Authors](#authors)
 
-Celo Composer is built on Celo to make it simple to build dApps using a variety of front-end frameworks, and libraries.
+## 🧐 Problem Statement <a name = "problem"></a>
 
-- [Celo](https://celo.org/)
-- [Solidity](https://docs.soliditylang.org/en/v0.8.19/)
-- [Next.js](https://nextjs.org/)
-- [React.js](https://reactjs.org/)
-- [Material UI](https://mui.com/)
-- [React Native](https://reactnative.dev/)
-- [Flutter](https://docs.flutter.dev/)
-- [React-celo](https://github.com/celo-org/react-celo/)
-- [Rainbowkit-celo](https://github.com/celo-org/rainbowkit-celo)
+The integrity of a customer in any transaction in the Blockchain industry is essential especially to institutions that practice a B2C (business to customer) kind of business, but the current verification especially  is time consuming and stressful especially for first time users.
+According to Statista, there is a worldwide spending on blockchain solutions and given this massive interest in Blockchain technology, spending in the industry  is expected to grow from 4.5 billion U.S. dollars in 2020 to an estimated 19 billion U.S. dollars by 2024. The financial sector accounts for around 30 percent of the market value of blockchain worldwide in 2020, but the technology has spread to nearly every industry from healthcare to agriculture and since every blockchain transaction must be digitally signed, there is the burden of customer verification (KYC - Know Your Customer).
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
+## 🏁 Brief <a name = "getting_started"></a>
 
-## Prerequisites
+Know Your Customer (KYC) process plays a vital role for authenticating the identity of customers in any organization that mostly deal with finance. KYC verification is crucial to prevent organizations from being used by illegal elements for money laundering activities such as drug trafficking, terrorism and other crimes. Since Blockchain offers features like decentralization, immutability and security, these limitations can be eliminated by using a one-time Blockchain based KYC verification that can be used everywhere and anywhere that verification is needed to reduce the time and streas of doing it all over again for every new registration.
 
-- Node
-- Git (v2.38 or higher)
 
-## How to use Celo Composer
+## 🎈 Solution <a name="usage"></a>
 
-The easiest way to start with Celo Composer is using `@celo/celo-composer`. This CLI tool lets you quickly start building dApps on Celo for multiple frameworks, including React (with either react-celo or rainbowkit-celo), React Native (w/o Expo), Flutter, and Angular. To get started, just run the following command, and follow the steps:
+We are creating a fast and seamless automated identification system, that leverages on blockchain technology to address the problem of verification, payment and customer care services in a decentralized community
 
-```bash
-npx @celo/celo-composer@latest create
-```
+## 🚀 How it works <a name = "deployment"></a>
 
-### Front-end framework
+As a first time user, you would need to submit documents: a 3-dimension passport photograph of you, a certificate of income, a residence permit, or a receipt for payment of utilities at your address, NIN, BVN, VIN and your international passport if you have one. These securities are checked on several bases, after which they determine your level, access to money transactions on any system or platform that KYC is needed, how much you can withdraw or transfer to your account. Since cryptocurrency transactions are non-refundable, an improved security system is needed.
+Our decentralized KYC verification process allows all the participants  in the Blockchain network to verify their different documents that are mostly used for verification purposes, e.g BVN, NIN, VIN, International Passport etc.
+Our system also allows organizations to conduct credible elections and gives the electorates the powers to vote for legitimacy of the data provided by the candidates or organizations. Depending on number of votes KYC status of customers or voters gets stored on the Blockchain. 
 
-![Celo Composer select framework](https://github.com/celo-org/celo-composer/blob/main/images/readme/cc_step_1.png?raw=true)
+The major enhancement in our proposed method is that organizations or political parties can also monitor the process in such a way that, if any political party is tampering with their voters' KYC data and that particular party or entity will get sanctioned accordingly on the network based on this voting. In this way, Blockchain can be used to improve the efficiency of KYC process with its distinctive features.
 
-### Web3 library (for react-app)
+Our core DAO features include 
+- A unified NFT IDS system 
+- Spilt Payment system
+- Dynamic voting system with real time results (for both private and public entities)
+- Community calls and members register,
+- Real time analytics for dao owners
+- DAO pay (allows the bankless and walletless to make transactions)
+- Our DAO bots . And other cool community features
 
-![Celo Composer select framework](https://github.com/celo-org/celo-composer/blob/main/images/readme/cc_step_2.png?raw=true)
+Our open source DAO based system, is built in such a way that our community members are onboarded seamlessly and on the go. This will help us track the growth of the software and its level of impact  with our open source code model, based on the level of active communities that are onboarded on the platform and their activity level backed with our real time analytics. It will also help us make policies and upgrade to the system for better engagement.
 
-### Smart contract framework
+By providing these solutions, we would be bringing those at the grassroots into the world of Blockchain, one step at a time and we are committed to growing this emerging technology and bringing it to to its fullest potential. 
 
-![Celo Composer tool selection](https://github.com/celo-org/celo-composer/blob/main/images/readme/cc_step_3.png?raw=true)
 
-### Subgraph
+## ⛏️ Built Using <a name = "built_using"></a>
 
-![Celo Composer subgraph support](https://github.com/celo-org/celo-composer/blob/main/images/readme/cc_step_4.png?raw=true)
-
-### Name your dApp
-
-![Celo Composer dApp name](https://github.com/celo-org/celo-composer/blob/main/images/readme/cc_step_5.png?raw=true)
-
-**_🔥Voila, you have a dApp ready to go. Voila, you have a dApp ready to go. Start building your dApp on Celo._**
-
-### Getting started
-
-Once your custom dApp has been created, just install dependencies, either with `yarn` or `npm i`, and run the respective script from the `package.json` file.
-## Supported Frameworks
-
-### React
-
-- Support for Website and Progressive Web Application.
-- Works with all major crypto wallets.
-
-Check [package readme](https://github.com/celo-org/celo-composer/blob/main/packages/react-app/README.md) to learn more about.
-
-### React Native
-
-- Out of the box config, just focus on buidl.
-- Support for Android and IOS.
-- Works with and without [Expo](https://expo.dev/).
-- Working example app included.
-
-Check [package readme](https://github.com/celo-org/celo-composer/blob/main/packages/react-native-app/README.md) to learn more about.
-
-### Flutter
-
-- One command to get started - Type `flutter run` to start development in your mobile phone.
-- Works with all major mobile crypto wallets.
-- Support for Android, IOS (Web, Windows, and Linux coming soon).
-- Working example app included.
-
-Check [package readme](https://github.com/celo-org/celo-composer/blob/main/packages/flutter-app/README.md) to learn more about.
-
-### Angular
-
-- Support for Website and Progressive Web Application.
-- Works with all major crypto wallets.
-
-Check [package readme](https://github.com/celo-org/celo-composer/blob/main/packages/angular-app/README.md) to learn more about.
-
-<!-- USAGE EXAMPLES -->
-
-## 🔭 Learning Solidity
-
-📕 Read the docs: <https://docs.soliditylang.org>
-
-- [Primitive Data Types](https://solidity-by-example.org/primitives/)
-- [Mappings](https://solidity-by-example.org/mapping/)
-- [Structs](https://solidity-by-example.org/structs/)
-- [Modifiers](https://solidity-by-example.org/function-modifier/)
-- [Events](https://solidity-by-example.org/events/)
-- [Inheritance](https://solidity-by-example.org/inheritance/)
-- [Payable](https://solidity-by-example.org/payable/)
-- [Fallback](https://solidity-by-example.org/fallback/)
-
-📧 Learn the [Solidity globals and units](https://solidity.readthedocs.io/en/v0.8.19/units-and-global-variables.html)
-
-## Support
-
-Join the Celo Discord server at <https://chat.celo.org>. Reach out on the dedicated repo channel [here](https://discord.com/channels/600834479145353243/941003424298856448).
-
-<!-- ROADMAP -->
-
-## Roadmap
-
-See the [open issues](https://github.com/celo-org/celo-composer/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-We welcome contributions from the community.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<!-- CONTACT -->
-## Contact
-
-- [@CeloDevs](https://twitter.com/CeloDevs)
-- [Discord](https://discord.com/invite/celo)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+- [MongoDB](https://www.mongodb.com/) - Database
+- [Bunzz](https://www.bunzz.dev/) - Blockchain and Backend Services
+- [Express](https://expressjs.com/) - Server Framework
+- [React](https://React.org/) - Web Framework
+- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [CeloComposer](https://github.com/celo-org/celo-composer) - Blockchain Connectivity
