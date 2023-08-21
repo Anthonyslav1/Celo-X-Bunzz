@@ -20,7 +20,7 @@ import {
   import Protected from './Protected'
   import { useSelector } from 'react-redux'
   
-  function App() {
+  function Apps() {
     const user = useSelector(state => state.auth.user)
     const isAuth = !!user
   
@@ -117,4 +117,4 @@ import {
     )
   }
   
-  export default App
+  export default Apps

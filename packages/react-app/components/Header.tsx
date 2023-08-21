@@ -1,10 +1,11 @@
 import { Disclosure } from "@headlessui/react";
 import React from "react";
+import Button from "../pages/Button";
 import type { Dispatch } from "react";
 import { useDispatch } from "react-redux";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
-
+import sendTranction from "../components/mint"
 import { ConnectButton } from "@rainbow-me/rainbowkit";
 import { logout } from "../redux/authSlice";
 import Image from "next/image";
@@ -18,6 +19,20 @@ export default function Header() {
     dispatch(logout())
   }
     return (
+      <Disclosure>
+      
+      <Button 
+        border="none"
+        color="yellow"
+        height = "35px"
+        onClick={sendTranction}
+        radius = "50%"
+        width = "80px"
+        children ="SEND"
+        >
+      </Button>
+    
+    
       <Disclosure as="nav" className="bg-prosperity border-b border-black">
         {({ open }) => (
           <>
@@ -54,7 +69,7 @@ export default function Header() {
               </div>
             </div>
   
-            <Disclosure.Panel className="sm:hidden">
+            <Disclosure.Panel className="">
               <div className="space-y-1 pt-2 pb-4">
                 <Disclosure.Button
                   as="a"
@@ -306,6 +321,7 @@ export default function Header() {
             </Disclosure.Panel>
           </>
         )}
+      </Disclosure>
       </Disclosure>
     )
   }
