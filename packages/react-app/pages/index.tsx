@@ -1,5 +1,5 @@
 import Button from "./Button";
-import getTotalSupply from "./Identify";
+import GetTotalSupply from "./Identify";
 export default function Home() {
   return (
     
@@ -56,7 +56,7 @@ By providing these solutions, we would be bringing those at the grassroots into 
         border="none"
         color="red"
         height = "60px"
-        onClick={getTotalSupply}
+        onClick={GetTotalSupply}
         radius = "19%"
         width = "80px"
         children = "Total Supply"
