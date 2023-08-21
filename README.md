@@ -73,3 +73,11 @@ By providing these solutions, we would be bringing those at the grassroots into 
 
 
 ## [Video Presentation](https://www.loom.com/share/639295be53d2492bb8c2ca9d786a0c69?sid=5dccb17c-f78e-4a2f-a0aa-0aa58ee609b4)
+
+## [Pitch Deck](https://github.com/Anthonyslav1/Celo-X-Bunzz/blob/main/PitchDeck.pdf)
+
+## Bunzz
+This current model involves using two Bunzz smart contract, The Token (ERC20) and the AirdropERC20.
+Later Models will involve using Bunzz's payment splitter and Stake smart contracts.
+The Erc20 is to be distributed to early users after their sign up.
+We also used the Identify_NFT smart contract which is the hub on which this project rests on.
