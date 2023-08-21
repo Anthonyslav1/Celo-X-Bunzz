@@ -1,6 +1,6 @@
 import RenderResult from "next/dist/server/render-result";
 import { useContractRead } from "wagmi";
-export default function getTotalSupply (){
+export default function GetTotalSupply (){
 const {data, isError, isLoading} = useContractRead({
 //Contract was deployed through Bunzz. Contract is called Token (ERC20)
 // Goto app.bunzz.dev/
